@@ -1,0 +1,51 @@
+body {
+    padding-top: 20%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+form {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.forma_input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.password {
+    text-align: center;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.forma_button {
+    border-width: 0;
+
+    color: white;
+    background-color: orange;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    height: 30px;
+}
+
+input:invalid {
+    box-shadow: 0 0 7px 2px red;
+}
+
