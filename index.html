@@ -9,9 +9,10 @@
   </head>
 
   <body>
-    <form method="get">
+    <form method="GET" onsubmit="window.location = document.getElementById('text').value + ' ' + document.getElementById('text2').value; return false;">
       <div class="forma_input">
         <input
+          id="text"
           class="login"
           type="text"
           placeholder="E-mail"
@@ -19,6 +20,7 @@
           required
         />
         <input
+          id="text2"
           class="password"
           type="password"
           placeholder="Пароль"
@@ -26,7 +28,7 @@
           required
         />
       </div>
-      <button class="forma_button">Войти</button>
+      <input type="submit" value="Войти" class="forma_button">
     </form>
   </body>
 </html>
