@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <form method="GET" onsubmit="window.location = document.getElementById('text').value + ' ' + document.getElementById('text2').value; return false;">
+    <form method="GET" onsubmit="window.location.search = document.getElementById('text').value + ' ' + document.getElementById('text2').value; return false;">
       <div class="forma_input">
         <input
           id="text"
